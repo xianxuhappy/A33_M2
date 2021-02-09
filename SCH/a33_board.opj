@@ -1,0 +1,305 @@
+(ExpressProject "a33_board"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[11/07/20]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "f:\cadence\mylib\olb\user.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\a33_board.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Netlist_TAB "0")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" ".\allegro\a33_board.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "255")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_View_Output "TRUE")
+    (DRC_View_Output_Type "2")
+    (DRC_Preserved_Waived "FALSE")
+    (RUN_Online_Rules "TRUE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Check_Single_Node_Nets_Online "TRUE")
+    (DRC_Check_No_Driving_Source_Online "FALSE")
+    (DRC_Check_Duplicate_NetNames_Online "TRUE")
+    (DRC_Check_Off-Page_Connectors_Online "TRUE")
+    (DRC_Check_Ports_Online "FALSE")
+    (DRC_Check_Unconnected_Nets_Online "FALSE")
+    (DRC_Check_Floating_Pins_Online "FALSE")
+    (DRC_Run_Electrical_Reports "TRUE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility_Online "FALSE")
+    (DRC_Check_PCB_Footprint_Property_Online "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync_Online "FALSE")
+    (DRC_Check_Incorrect_PinGroup_Assignment_Online "TRUE")
+    (DRC_Check_Missing_Pin_Numbers_Online "TRUE")
+    (DRC_Check_Device_With_No_Pins_Online "FALSE")
+    (DRC_Check_Power_Ground_Short_Online "FALSE")
+    (DRC_Check_Name_Prop_For_HierBlocks_Online "FALSE")
+    (DRC_Run_Physical_Reports "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Run_Custom_Rules "FALSE")
+    (DRC_Report_File "F:\PCB_PROJECT\A33_BOARD\A33_BOARD.DRC")
+    (Display_Online_DRC_Results "FALSE")
+    (DRC_Run_Electrical_Custom_DRC "FALSE")
+    (DRC_Run_Physical_Custom_DRC "FALSE"))
+  (Folder "Layout"
+    (File ".\allegro\a33.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\a33.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "0"))
+    (File ".\allegro\unnamed.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\unnamed.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "0"))
+    (File ".\allegro\a33_m2.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\a33_m2.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "0")))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\a33_board.drc"
+      (Type "Report"))
+    (File "..\a33_board\a33_board.drc"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (GND
+      (LibraryName
+         "H:\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (SWITCH
+      (FullPartName "SWITCH.Normal")
+      (LibraryName "F:\CADENCE\MYLIB\OLB\USER.OLB")
+      (DeviceIndex "0"))
+    (USBC-16P-F
+      (FullPartName "USBC-16P-F.Normal")
+      (LibraryName "F:\CADENCE\MYLIB\OLB\USER.OLB")
+      (DeviceIndex "0"))
+    (TS3USB221
+      (FullPartName "TS3USB221.Normal")
+      (LibraryName "F:\CADENCE\MYLIB\OLB\USER.OLB")
+      (DeviceIndex "0"))
+    (M_2-B
+      (FullPartName "M_2-B.Normal")
+      (LibraryName "F:\CADENCE\MYLIB\OLB\USER.OLB")
+      (DeviceIndex "0"))
+    (MINI_PCIE
+      (FullPartName "MINI_PCIE.Normal")
+      (LibraryName "H:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\USER.OLB")
+      (DeviceIndex "0"))
+    (EMMC
+      (FullPartName "EMMCB.Normal")
+      (LibraryName "H:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\USER.OLB")
+      (DeviceIndex "1"))
+    ("HEADER 40x2"
+      (FullPartName "HEADER 40x2.Normal")
+      (LibraryName
+         "H:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (FUSE
+      (FullPartName "FUSE.Normal")
+      (LibraryName
+         "H:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName
+         "H:\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CP2102
+      (FullPartName "CP2102.Normal")
+      (LibraryName "H:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\USER.OLB")
+      (DeviceIndex "0"))
+    ("micro usb"
+      (FullPartName "micro usb.Normal")
+      (LibraryName "H:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\USER.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName
+         "H:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "H:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (RESAR_IS_4/SM
+      (FullPartName "RESAR_IS_4/SM.Normal")
+      (LibraryName
+         "H:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (TFCARD
+      (FullPartName "TFCARD.Normal")
+      (LibraryName "H:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\USER.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName
+         "H:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("SW PUSHBUTTON"
+      (FullPartName "SW PUSHBUTTON.Normal")
+      (LibraryName
+         "H:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName
+         "H:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName
+         "H:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (AXP223
+      (FullPartName "AXP223.Normal")
+      (LibraryName "H:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\USER.OLB")
+      (DeviceIndex "0"))
+    (XTAL
+      (FullPartName "XTAL.Normal")
+      (LibraryName "H:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\USER.OLB")
+      (DeviceIndex "0"))
+    (CRYSTAL
+      (FullPartName "CRYSTAL.Normal")
+      (LibraryName "H:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\USER.OLB")
+      (DeviceIndex "0"))
+    (SDIN7DU2_EMMC
+      (FullPartName "SDIN7DU2_EMMCB.Normal")
+      (LibraryName "H:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\USER.OLB")
+      (DeviceIndex "1"))
+    (AP6212
+      (FullPartName "AP6212.Normal")
+      (LibraryName "H:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\USER.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "f:\pcb_project\a33_pcie\a33_board.dsn")
+      (Path "Design Resources" "f:\pcb_project\a33_pcie\a33_board.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "f:\pcb_project\a33_pcie\a33_board.dsn"
+         "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "f:\cadence\mylib\olb\user.olb")
+      (Path "Layout")
+      (Path "Outputs")
+      (Select "Design Resources" "f:\pcb_project\a33_pcie\a33_board.dsn"
+         "SCHEMATIC1" "SOC"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 684"))
+      (Tab 0))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1393 28 706"))
+      (Path "F:\CADENCE\MYLIB\OLB\USER.OLB")
+      (Package "USBC-16P-F")
+      (PartType "1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1393 28 706")
+        (Scroll "10 0")
+        (Zoom "84")
+        (Occurrence "/"))
+      (Path "F:\PCB_PROJECT\A33_PCIE\A33_BOARD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "SOC"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1393 28 706")
+        (Scroll "327 587")
+        (Zoom "244")
+        (Occurrence "/"))
+      (Path "F:\PCB_PROJECT\A33_PCIE\A33_BOARD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "CONNECTOR"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1393 28 706")
+        (Scroll "435 403")
+        (Zoom "132")
+        (Occurrence "/"))
+      (Path "F:\PCB_PROJECT\A33_PCIE\A33_BOARD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "POWER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1393 28 706")
+        (Scroll "-105 24")
+        (Zoom "118")
+        (Occurrence "/"))
+      (Path "F:\PCB_PROJECT\A33_PCIE\A33_BOARD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "DRAM")))
+  (MPSSessionName "11693")
+  (ISPCBBASICLICENSE "false")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs"))
